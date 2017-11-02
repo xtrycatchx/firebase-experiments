@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xtrycatchx/firebase-experiments/issues"
   },
-  "homepage": "https://github.com/xtrycatchx/firebase-experiments#readme"
+  "homepage": "https://github.com/xtrycatchx/firebase-experiments#readme",
+  "dependencies": {
+    "firebase-admin": "^5.4.3"
+  }
 }
