@@ -1,0 +1,19 @@
+{
+  "name": "firebase-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtrycatchx/firebase-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtrycatchx/firebase-experiments/issues"
+  },
+  "homepage": "https://github.com/xtrycatchx/firebase-experiments#readme"
+}
