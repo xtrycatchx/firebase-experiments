@@ -17,10 +17,11 @@ let ref = firebase.database().ref(config.databaseRoot);
 ref.orderByChild(config.fieldOne).equalTo(bloodType).once("value", childrenSnapshot => {
     childrenSnapshot.forEach(snapshot => {
         const recipient = snapshot.key;
-        if (!snapshot.child(config.fieldTwo).val()) {
-            console.log("X > ", bloodType, recipient, snapshot.child(config.fieldTwo).val());
+        const anotherField = snapshot.child(config.fieldTwo).val();
+        if (!anotherField) {
+            console.log("X > ", bloodType, recipient, anotherField);
         } else {
-            console.log("Z > ", bloodType, recipient, snapshot.child(config.fieldTwo).val());
+            console.log("Z > ", bloodType, recipient, anotherField);
         }
     });
 });
